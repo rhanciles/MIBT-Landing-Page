@@ -95,7 +95,7 @@ nav {
   border-radius: 50%;
   width: 75px;
   height: 75px;
-  z-index: 8;
+  z-index: 7;
 }
 .bubble {
   opacity: 0;
@@ -110,7 +110,7 @@ nav {
   border-radius: 50%;
   width: 75px;
   height: 75px;
-  z-index: 8;
+  z-index: 7;
 }
 
 #btncover {
@@ -118,8 +118,8 @@ nav {
   margin: -100px;
   height: 280px;
   width: 290px;
-  z-index: 6;
   /* background-color: #95aae5; */
+  z-index: 6;
 }
 
 #s-icons {
@@ -131,8 +131,8 @@ nav {
   margin-top: 84vh;
   justify-content: center;
   animation: 5s slide-up;
-  z-index: 4;
   gap: 90px;
+  z-index: 3;
 }
 #s-text {
   display: flex;
@@ -143,8 +143,8 @@ nav {
   margin-top: 40px;
   animation: 5s slide-up;
   text-shadow: 4px 2px #22232482, 2px 4px #22232482, 3px 4px #22232482;
-  z-index: 3;
   gap: 100px;
+  z-index: 3;
 }
 
 .infotxt {
@@ -196,7 +196,7 @@ a:after {
   
 a:hover {
   color: #ffea8b !important;
-  z-index: 7;
+  z-index: 5;
 }
   
 a:hover:after {

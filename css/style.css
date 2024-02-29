@@ -7,7 +7,7 @@
 body {
   overflow: hidden;
   background-color: #3d6c74;
-  background-image: url(../image/MIBT_Logo_Backgrnd_Body.jpg);
+  background-image: url(../images/MIBT_Logo_Backgrnd_Body.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -15,21 +15,16 @@ body {
   display: none;
 }
 
-#one, #two, #three {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 5;
-  text-align: center;
-}
+#one, 
+#two, 
+#three, 
 #four {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 5;
   text-align: center;
+  z-index: 5;
 }
 .bubble img {
   cursor: pointer;
@@ -107,7 +102,7 @@ section {
   top: 0;
   left: 0;
   background-color: #453434;
-  background-image: url(../image/vecteezy_Office_28050254.jpg);
+  background-image: url(../images/vecteezy_Office_28050254.jpg);
   background-size: cover;
   text-align: center;
 }
@@ -115,45 +110,45 @@ section {
   left: 100vw;
   top: 0;
   background-color: #45394d;
-  background-image: url(../image/MIBT_Logo_Backgrnd_NatColours.jpg);
+  background-image: url(../images/MIBT_Logo_Backgrnd_NatColours.jpg);
   background-position: center;
   background-size: cover;
-  z-index: 7;
+  z-index: 6;
 }
 .second {
   left: 0;
   top: 100vh;
   background-color: #557b4a;
-  background-image: url(../image/MIBT_Logo_Backgrnd_About.jpg);
+  background-image: url(../images/MIBT_Logo_Backgrnd_About.jpg);
   background-position: center;
   background-size: cover;
-  z-index: 7;
+  z-index: 6;
 }
 .third {
   left: -100vw;
   top: 0;
   background-color: #41425a;
-  background-image: url(../image/MIBT_Logo_Backgrnd_UniColours.jpg);
+  background-image: url(../images/MIBT_Logo_Backgrnd_UniColours.jpg);
   background-position: center;
   background-size: cover;
-  z-index: 7;
+  z-index: 6;
 }
 .fourth {
   left: 0;
   top: -100vh;
   background-color: #a3687e;
-  background-image: url(../image/MIBT_Logo_Backgrnd_About.jpg);
+  background-image: url(../images/MIBT_Logo_Backgrnd_About.jpg);
   background-position: center;
   background-size: cover;
-  z-index: 7;
+  z-index: 6;
 }
-#one.bubble,
+/* #one.bubble,
 #two.bubble,
 #three.bubble,
 #four.bubble,
 #icon.bubble_all {
   z-index: 8;
-}
+} */
 section:first-child.content {
   width: 100%;
   height: 100vh;

@@ -44,7 +44,7 @@
     }
     body {
       overflow: hidden !important;
-      background-image: url(../image/1024/MIBT_Logo_Backgrnd_Body_1024.jpg);
+      background-image: url(../images/1024/MIBT_Logo_Backgrnd_Body_1024.jpg);
     }
     #s-text {
       gap: 60px !important;
@@ -74,17 +74,18 @@
     }
     #one {
       margin-left: -90px;
-      margin-top: 12vh;
+      margin-top: 10vh;
     }
     #two {
-      margin-top: 15vh;
+      margin-top: 12vh;
+      margin-left: -10px;
     }
     #three {
-      margin-left: 92px;
-      margin-top: -12vh;
+      margin-left: 90px;
+      margin-top: -10vh;
     }
     #four {
-      margin-top: -15vh;
+      margin-top: -10vh;
     }
     #logo {
       margin-top: 4vh;
@@ -117,16 +118,16 @@
         margin-top: -45px;
     }
     .first {
-        background-image: url(../image/1024/MIBT_Logo_Backgrnd_NatColours_1024.jpg);
+        background-image: url(../images/1024/MIBT_Logo_Backgrnd_NatColours_1024.jpg);
     }
     .second {
-        background-image: url(../image/1024/MIBT_Logo_Backgrnd_About_1024.jpg);
+        background-image: url(../images/1024/MIBT_Logo_Backgrnd_About_1024.jpg);
     }
     .third {
-        background-image: url(../image/1024/MIBT_Logo_Backgrnd_UniColours_1024.jpg);
+        background-image: url(../images/1024/MIBT_Logo_Backgrnd_UniColours_1024.jpg);
     }
     .fourth {
-        background-image: url(../image/1024/MIBT_Logo_Backgrnd_Home_1024.jpg);
+        background-image: url(../images/1024/MIBT_Logo_Backgrnd_Home_1024.jpg);
     }
     .content p {
         margin: 46px 50px 0px 50px;
@@ -142,19 +143,19 @@
     }
     body {
         overflow: hidden !important;
-        background-image: url(../image/800/MIBT_Logo_Backgrnd_Body_800.jpg);
+        background-image: url(../images/800/MIBT_Logo_Backgrnd_Body_800.jpg);
     }
     .first {
-        background-image: url(../image/800/MIBT_Logo_Backgrnd_NatColours_800.jpg);
+        background-image: url(../images/800/MIBT_Logo_Backgrnd_NatColours_800.jpg);
     }
     .second {
-        background-image: url(../image/800/MIBT_Logo_Backgrnd_About_800.jpg);
+        background-image: url(../images/800/MIBT_Logo_Backgrnd_About_800.jpg);
     }
     .third {
-        background-image: url(../image/800/MIBT_Logo_Backgrnd_UniColours_800.jpg);
+        background-image: url(../images/800/MIBT_Logo_Backgrnd_UniColours_800.jpg);
     }
     .fourth {
-        background-image: url(../image/800/MIBT_Logo_Backgrnd_Home_800.jpg);
+        background-image: url(../images/800/MIBT_Logo_Backgrnd_Home_800.jpg);
     }
     .content p {
         margin: 46px 50px 0px 50px;
@@ -169,19 +170,19 @@
     }
     body {
       overflow: hidden !important;
-      background-image: url(../image/600/MIBT_Logo_Backgrnd_Body_600.jpg);
+      background-image: url(../images/600/MIBT_Logo_Backgrnd_Body_600.jpg);
     }
     .first {
-        background-image: url(../image/600/MIBT_Logo_Backgrnd_NatColours_600.jpg);
+        background-image: url(../images/600/MIBT_Logo_Backgrnd_NatColours_600.jpg);
     }
     .second {
-        background-image: url(../image/600/MIBT_Logo_Backgrnd_About_600.jpg);
+        background-image: url(../images/600/MIBT_Logo_Backgrnd_About_600.jpg);
     }
     .third {
-        background-image: url(../image/600/MIBT_Logo_Backgrnd_UniColours_600.jpg);
+        background-image: url(../images/600/MIBT_Logo_Backgrnd_UniColours_600.jpg);
     }
     .fourth {
-        background-image: url(../image/600/MIBT_Logo_Backgrnd_Home_600.jpg);
+        background-image: url(../images/600/MIBT_Logo_Backgrnd_Home_600.jpg);
     }
     #s-text {
       flex-wrap: wrap;
@@ -234,6 +235,11 @@
     #four {
       margin-top: -10px;
     }
+    #btncover {
+      margin: -60px;
+      height: 200px;
+      width: 200px;
+    }
     #logo {
       height: 80px;
       width: 80px;
@@ -275,27 +281,27 @@
 @media screen and (max-width: 320px){
     body {
       overflow: hidden !important;
-      background-image: url(../image/300/MIBT_Logo_Backgrnd_Body_300.jpg);
+      background-image: url(../images/300/MIBT_Logo_Backgrnd_Body_300.jpg);
     }
     .first {
-        background-image: url(../image/300/MIBT_Logo_Backgrnd_NatColours_300.jpg);
+        background-image: url(../images/300/MIBT_Logo_Backgrnd_NatColours_300.jpg);
     }
     .second {
-        background-image: url(../image/300/MIBT_Logo_Backgrnd_About_300.jpg);
+        background-image: url(../images/300/MIBT_Logo_Backgrnd_About_300.jpg);
     }
     .third {
-        background-image: url(../image/300/MIBT_Logo_Backgrnd_UniColours_300.jpg);
+        background-image: url(../images/300/MIBT_Logo_Backgrnd_UniColours_300.jpg);
     }
     .fourth {
-        background-image: url(../image/300/MIBT_Logo_Backgrnd_Home_300.jpg);
+        background-image: url(../images/300/MIBT_Logo_Backgrnd_Home_300.jpg);
     }
     .banner {
       width: 100%;
       display: flex;
-      gap: 20px;
+      gap: 80px;
       align-items: center;
       flex-direction: column;
-      margin-top: -83vh;
+      margin-top: -92vh;
     }
     #left-img {
       margin: 0 auto;

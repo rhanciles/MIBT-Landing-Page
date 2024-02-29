@@ -3,6 +3,7 @@ $(document).ready(function () {
   var menuIsOpen = false;
 
   var menuIcon = $(".va_menu_icon");
+  var iconCover = $(".icover");
 
   var one = $("#one");
   var two = $("#two");
@@ -28,8 +29,12 @@ $(document).ready(function () {
     }
   });
 
+  iconCover.attr("id", "btncover");
+
   function showBubbles() {
     menuIcon.addClass("is-active");
+    iconCover.attr("id", "nocover");
+    // screenWide(y);
 
     $(".social").animate({ opacity: "1" }, 700);
 
@@ -38,7 +43,7 @@ $(document).ready(function () {
     three.animate({ opacity: "1" }, 10);
     four.animate({ opacity: "1" }, 10);
 
-    one.animate({ left: "140px" }, 110);
+    one.animate({ left: "130px" }, 110);
     two.animate({ top: "140px" }, 200);
     one.animate({ left: "130px" }, 100);
     three.animate({ left: "-65px" }, 300);
@@ -52,6 +57,7 @@ $(document).ready(function () {
 
   function hideBubbles() {
     menuIcon.removeClass("is-active");
+    iconCover.attr("id", "btncover");
     // screenType(y);
 
     setTimeout(function () {
@@ -59,9 +65,9 @@ $(document).ready(function () {
       $(".content").animate({ opacity: "1" }, 900);
       $(".banner").animate({ opacity: "0" }, 700);
     }, 600);
-    four.animate({ top: "140px", opacity: "0" }, 400);
+    four.animate({ top: "140px", opacity: "0" }, 350);
     three.animate({ left: "140px", opacity: "0" }, 350);
-    two.animate({ top: "-65px", opacity: "0" }, 300);
+    two.animate({ top: "-65px", opacity: "0" }, 250);
     one.animate({ left: "-80px", opacity: "0" }, 250);
     four.animate({ top: "65%" }, 400);
     three.animate({ left: "50%" }, 350);
@@ -114,24 +120,13 @@ $(document).ready(function () {
     }
   }
 
-  // function screenType(y) {
-  //   if (y.matches && isTop === false) {
-  //     // If media query matches
-  //     three.animate({ top: "140px", opacity: "0" }, 350);
-  //     one.animate({ top: "-60px", opacity: "0" }, 250);
-  //   }
-  // }
-
   // Create a MediaQueryList object
   var x = window.matchMedia("(max-width: 640px)");
-  // var y = window.matchMedia("(max-width: 1024px)");
 
   // Call listener function at run time
 
   // Attach listener function on state changes
   x.addEventListener("change", function () {
-    // preventDefault();
     screenSize(x);
-    // screenType(y);
   });
 });
