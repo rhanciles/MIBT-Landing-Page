@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  background-color: #3d6c74;
+  background-image: url(../image/MIBT_Logo_Backgrnd_Body.jpg);
+  background-position: center;
+  background-size: cover;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+#one, #two, #three {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  text-align: center;
+}
+#four {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  text-align: center;
+}
+.bubble img {
+  cursor: pointer;
+}
+.bubble h3 {
+  opacity: 0;
+  cursor: pointer4;
+  transition: all 200ms;
+  -webkit-transition: all 400ms;
+}
+.bubble img:hover ~ h3 {
+  opacity: 1;
+}
+#one {
+  /* background-color: #FDEECF; */
+  background-size: cover;
+  margin-left: 100px;
+}
+#one>h3 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  top: 100px;
+  transform: translateY(-50%);
+}
+#two {
+  /* background-color: #FDD0BC; */
+  background-size: cover;
+  margin-top: 100px;
+}
+#two>h3 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#three {
+  /* background-color: #EDB4B5; */
+  background-size: cover;
+  margin-left: -100px;
+}
+#three>h3 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+  top: 110px;
+  left: -45px;
+  transform: translateY(-50%);
+}
+#four {
+  /* background-color: #CB86A0; */
+  background-size: cover;
+  margin-top: -100px;
+}
+#four>h3 {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  top: 72px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+section {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+.start {
+  top: 0;
+  left: 0;
+  background-color: #453434;
+  background-image: url(../image/vecteezy_Office_28050254.jpg);
+  background-size: cover;
+  text-align: center;
+}
+.first {
+  left: 100vw;
+  top: 0;
+  background-color: #45394d;
+  background-image: url(../image/MIBT_Logo_Backgrnd_NatColours.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 7;
+}
+.second {
+  left: 0;
+  top: 100vh;
+  background-color: #557b4a;
+  background-image: url(../image/MIBT_Logo_Backgrnd_About.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 7;
+}
+.third {
+  left: -100vw;
+  top: 0;
+  background-color: #41425a;
+  background-image: url(../image/MIBT_Logo_Backgrnd_UniColours.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 7;
+}
+.fourth {
+  left: 0;
+  top: -100vh;
+  background-color: #a3687e;
+  background-image: url(../image/MIBT_Logo_Backgrnd_About.jpg);
+  background-position: center;
+  background-size: cover;
+  z-index: 7;
+}
+#one.bubble,
+#two.bubble,
+#three.bubble,
+#four.bubble,
+#icon.bubble_all {
+  z-index: 8;
+}
+section:first-child.content {
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+}
+.content {
+  width: 100%;
+  height: 100vh;
+  opacity: 1;
+  margin: 0 auto;
+  overflow-y: hidden;
+}
+.start h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  line-height: 0.1;
+  /* margin-top: 10px; */
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+.welcome {
+  margin: 30vh auto 5vh;
+  color: white;
+  font: 400 normal 3.5em 'kalam';
+  text-shadow: 5px 2px #22232482, 2px 4px #22232482, 3px 5px #22232482;
+}
+#logo {
+  margin-top: 4vh;
+  margin-bottom: 35px;
+}
+#badge {
+  height: 150px;
+  width: 150px;
+  margin: -80px 50px 0px;
+}
+#left-img {
+  position: relative;
+  margin-left: 10vw;
+  float: left;
+  box-shadow: inset 0 -3em 3em #5a456813, 0 0 0 3px rgb(161, 121, 131),
+  0.7em 0.7em 2.5em #181719;
+  color: #181719;
+}
+#right-img {
+  position: relative;
+  margin-right: 10vw;
+  float: right;
+  box-shadow: inset 0 -3em 3em #5a456813, 0 0 0 3px rgb(161, 121, 131),
+  0.7em 0.7em 2.5em #181719;
+  color: #181719;
+}
+.banner {
+  margin-top: -80vh;
+  opacity: 0;
+}
+#titletxt {
+  font-size: 35px;
+  color: #fff8ab;
+  line-height: 0.1;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: #f1e6e6;
+  margin-top: 200px;
+  margin-left: 80px;
+}
+h4 {
+  font-family: 'Roboto', sans-serif;
+  color: #fff8ab;
+  font-size: 20px;
+}
+.content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #f0d5d9;
+  margin: 50px 100px 0px 80px;
+  height: 49.5vh;
+  overflow: hidden;
+}
+.pagetitle {
+  animation: 5s slide-up;
+}
+@keyframes slide-up {
+  from {
+    margin-top: 100vh;
+    opacity: 0;
+  }
+  60% {
+    margin-top: 90vh;
+    opacity: 0.1;
+  }
+  to {
+    margin-top: "";
+    opacity: 1;
+  }
+}

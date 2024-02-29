@@ -1,0 +1,309 @@
+
+@media screen and (min-width: 1920px){
+    .welcome {
+      margin-top: 35vh;
+    }
+    #titletxt {
+      line-height: 0.2;
+    }
+    #left-img {
+      width: 400px;
+      height: 695px;
+    }
+    #right-img {
+      width: 400px;
+      height: 695px;
+    }
+    ul li a {
+      padding: 0.8em !important;
+      font-size: 40px !important;
+    }
+    #s-icons {
+      margin-top: 80vh !important;
+    }
+    h4 {
+      font-size: 30px;
+    }
+    #s-text {
+      margin-top: 50px;
+    }
+    .menubtn {
+      height: 110px;
+      width: 120px;
+    }
+    .homebtn {
+      height: 70px;
+      width: 80px;
+    }
+}
+  
+@media screen and (max-width: 1024px){
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      overflow: hidden !important;
+      background-image: url(../image/1024/MIBT_Logo_Backgrnd_Body_1024.jpg);
+    }
+    #s-text {
+      gap: 60px !important;
+    }
+    h3 {
+      font-size: 20px !important;
+      margin-top: -20px !important;
+    }
+    #one>h3 {
+      margin-top: -25px !important;
+      margin-left: -15px;
+    }
+    #three>h3 {
+      margin-top: -35px !important;
+      margin-left: 32px;
+    }
+    h4 {
+      font-size: 16px;
+    }
+    .menubtn {
+      height: 60px;
+      width: 70px;
+    }
+    .homebtn {
+      height: 50px;
+      width: 50px;
+    }
+    #one {
+      margin-left: -90px;
+      margin-top: 12vh;
+    }
+    #two {
+      margin-top: 15vh;
+    }
+    #three {
+      margin-left: 92px;
+      margin-top: -12vh;
+    }
+    #four {
+      margin-top: -15vh;
+    }
+    #logo {
+      margin-top: 4vh;
+    }
+    .start h1 {
+      font-size: 40px;
+    }
+    #titletxt {
+      font-size: 25px;
+    }
+    .welcome {
+      font-size: 2.5em;
+    }
+    .banner img {
+      width: 250px;
+      height: 434px;
+    }
+    .banner {
+      margin-top: -78vh;
+    }
+    #left-img {
+      margin-left: 5vw;
+    }
+    #right-img {
+      margin-right: 5vw;
+    }
+    #badge {
+        height: 100px;
+        width: 100px;
+        margin-top: -45px;
+    }
+    .first {
+        background-image: url(../image/1024/MIBT_Logo_Backgrnd_NatColours_1024.jpg);
+    }
+    .second {
+        background-image: url(../image/1024/MIBT_Logo_Backgrnd_About_1024.jpg);
+    }
+    .third {
+        background-image: url(../image/1024/MIBT_Logo_Backgrnd_UniColours_1024.jpg);
+    }
+    .fourth {
+        background-image: url(../image/1024/MIBT_Logo_Backgrnd_Home_1024.jpg);
+    }
+    .content p {
+        margin: 46px 50px 0px 50px;
+        height: 48vh;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+        overflow: hidden !important;
+        background-image: url(../image/800/MIBT_Logo_Backgrnd_Body_800.jpg);
+    }
+    .first {
+        background-image: url(../image/800/MIBT_Logo_Backgrnd_NatColours_800.jpg);
+    }
+    .second {
+        background-image: url(../image/800/MIBT_Logo_Backgrnd_About_800.jpg);
+    }
+    .third {
+        background-image: url(../image/800/MIBT_Logo_Backgrnd_UniColours_800.jpg);
+    }
+    .fourth {
+        background-image: url(../image/800/MIBT_Logo_Backgrnd_Home_800.jpg);
+    }
+    .content p {
+        margin: 46px 50px 0px 50px;
+        height: 48vh;
+    }
+}
+  
+@media screen and (max-width: 640px){
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      overflow: hidden !important;
+      background-image: url(../image/600/MIBT_Logo_Backgrnd_Body_600.jpg);
+    }
+    .first {
+        background-image: url(../image/600/MIBT_Logo_Backgrnd_NatColours_600.jpg);
+    }
+    .second {
+        background-image: url(../image/600/MIBT_Logo_Backgrnd_About_600.jpg);
+    }
+    .third {
+        background-image: url(../image/600/MIBT_Logo_Backgrnd_UniColours_600.jpg);
+    }
+    .fourth {
+        background-image: url(../image/600/MIBT_Logo_Backgrnd_Home_600.jpg);
+    }
+    #s-text {
+      flex-wrap: wrap;
+      height: 15px !important;
+      margin-top: 80vh !important;
+      gap: 5px !important;
+    }
+    ul li a {
+      padding: 0.3em !important;
+      font-size: 20px !important;
+    }
+    h3 {
+      font-size: 15px !important;
+      margin-top: -20px !important;
+    }
+    #three>h3 {
+      margin-top: -35px !important;
+      margin-left: 15px;
+    }
+    .va_menu_icon {
+      width: 35px !important;
+      height: 35px !important;
+      top: 50%;
+    }
+    .va_menu_icon span {
+      height: 6px !important;
+    }
+    .va_menu_icon span:before, .va_menu_icon span:after {
+      height: 6px !important;
+    }
+    .menubtn {
+      height: 40px;
+      width: 40px;
+    }
+    .homebtn {
+      height: 30px;
+      width: 30px;
+    }
+    #one {
+      margin-left: 10px;
+      margin-top: 1vh;
+    }
+    #two {
+      margin-top: 10px;
+    }
+    #three {
+      margin-left: -10px;
+      margin-top: 1vh;
+    }
+    #four {
+      margin-top: -10px;
+    }
+    #logo {
+      height: 80px;
+      width: 80px;
+    }
+    .start h1 {
+      font-size: 30px;
+    }
+    #titletxt {
+      font-size: 20px;
+    }
+    .infotxt {
+      font-size: 15px;
+    }
+    .welcome {
+      font-size: 1.5em;
+      margin-top: 30vh;
+    }
+    .banner img {
+      width: 135px;
+      height: 235px;
+    }
+    .banner {
+      margin-top: -55vh;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #badge {
+        height: 50px;
+        width: 50px;
+        margin: -10px 10px 0px;
+    }
+    ul li a {
+        padding: 0.1em !important;
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 320px){
+    body {
+      overflow: hidden !important;
+      background-image: url(../image/300/MIBT_Logo_Backgrnd_Body_300.jpg);
+    }
+    .first {
+        background-image: url(../image/300/MIBT_Logo_Backgrnd_NatColours_300.jpg);
+    }
+    .second {
+        background-image: url(../image/300/MIBT_Logo_Backgrnd_About_300.jpg);
+    }
+    .third {
+        background-image: url(../image/300/MIBT_Logo_Backgrnd_UniColours_300.jpg);
+    }
+    .fourth {
+        background-image: url(../image/300/MIBT_Logo_Backgrnd_Home_300.jpg);
+    }
+    .banner {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      flex-direction: column;
+      margin-top: -83vh;
+    }
+    #left-img {
+      margin: 0 auto;
+    }
+    #right-img {
+      margin: 0 auto;
+    }
+}
+  
+  
+  
